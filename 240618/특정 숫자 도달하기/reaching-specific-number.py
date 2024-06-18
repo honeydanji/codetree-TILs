@@ -11,6 +11,6 @@ for i in arr:
     else:
         break
 
-avg = round(sum / count, 2)
+avg = round(sum / count, 1)
 
 print(f"{sum} {avg}")
