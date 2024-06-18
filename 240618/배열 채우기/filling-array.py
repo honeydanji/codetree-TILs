@@ -1,5 +1,9 @@
 arr = list(map(int, input().split()))
 
-for i in range(len(arr)-1, -1,-1):
-    if arr[i] != 0:
-        print(arr[i], end=" ")
+index = 0
+
+for i in arr:
+    if i != 0:
+        index += 1
+
+print(' '.join(map(str,arr[index-1:-1:-1])))
