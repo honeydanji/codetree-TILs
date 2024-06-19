@@ -8,7 +8,4 @@ for i in arr:
     else:
         break
 
-if count-3 == 0:
-    print(sum(arr[count-1::-1]))    
-else:
-    print(sum(arr[count-1:count-3:-1]))
+print(sum(arr[count-3:count:1]))
