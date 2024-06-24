@@ -1,4 +1,4 @@
-a, b = map(int, input().split())
+a, b = tuple(map(int, input().split()))
 
 arr = [[0 for _ in range(b)] for _ in range(a)]
 
