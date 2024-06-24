@@ -17,8 +17,8 @@ while True:
     while True:
         arr[n][m] = num
         num += 1
-        if m == c:
-            if k < b-1: # b-1 2 ////  k 1 2
+        if m == c or n == a-1:
+            if k < b-1:
                 k += 1
             else:
                 l += 1
