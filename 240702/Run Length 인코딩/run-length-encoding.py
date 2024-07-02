@@ -9,12 +9,12 @@ if len(arr) > 1:
             count += 1
         else:
             brr.append(arr[i-1])
-            brr.append(str(count))
+            brr.append(count)
             count = 1
 
         if i == len(arr)-1:
             brr.append(arr[i])
-            brr.append(str(count))
+            brr.append(count)
 else:
     brr.append(arr[0])
     brr.append(str(1))
