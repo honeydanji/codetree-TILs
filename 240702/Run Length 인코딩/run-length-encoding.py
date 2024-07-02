@@ -12,7 +12,7 @@ for i in range(1, len(arr)):
         count = 1
 
     if i == len(arr)-1:
-        brr.append(arr[i-1])
+        brr.append(arr[i])
         brr.append(str(count))
 
 print(len(brr))
