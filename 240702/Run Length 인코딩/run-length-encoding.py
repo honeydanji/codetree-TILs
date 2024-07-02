@@ -1,7 +1,6 @@
 arr = input()
 brr = []
 
-
 count = 1
 
 for i in range(1, len(arr)):
@@ -12,8 +11,9 @@ for i in range(1, len(arr)):
         brr.append(str(count))
         count = 1
 
-brr.append(arr[i-1])
-brr.append(str(count))
+    if i == len(arr)-1:
+        brr.append(arr[i-1])
+        brr.append(str(count))
 
 print(len(brr))
 print(''.join(map(str, brr)))
