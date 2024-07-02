@@ -19,5 +19,6 @@ else:
     brr.append(arr[0])
     brr.append(str(1))
 
-print(len(brr))
+b=''.join(map(str, brr))
+print(len(b))
 print(''.join(map(str, brr)))
