@@ -4,7 +4,7 @@ a = input()
 
 check = False
 
-for i in range(len(al)-1):
+for i in range(len(al)-len(a)):
     if a == al[i:len(a)+i]:
         print(i)
         check = True
